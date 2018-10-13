@@ -1,10 +1,12 @@
-# Crawler avis vins Le Figaro
+# Crawler les fiches vins du site LeFigaro
 
 ### Objectif du repo
-L'objectif est de crawler les informations basiques contenues sur le site avis vins figaro . fr. 
+L'objectif est de crawler les informations basiques contenues sur le site http://avis-vin.lefigaro.fr/
 
-### Lancer le crawler
-Pour lancer le crawler, lancez main.R.
+### Processus
+* Le fichier main.R lance le crawling via le script s0.R
+* s0.R charge les fonctions contenues dans les fichiers fun.R et funbis.R
+* Les données récoltées sont enregistrées dans le dossier data
 
 ### Parameters
 Les meta parameters à changer sont présents dans le fichier main.R et s0.R. Il s'agit uniquement de l'adresse du dossier receptionnant les données ainsi que l'adresse du script s0.R.
